@@ -43,46 +43,40 @@ If you want to try it out:
    cd titanic-predictor
 
 2. **Create a virtual environment**
+    ```bash
     python -m venv venv
-    venv\Scripts\activate  # On Windows
+    venv\Scripts\activate
 
 
 3. **Install the libraries**
+    ```bash
     pip install -r requirements.txt
 
 4. **Run the app**
+    ```bash
     python app.py
 
 Then open your browser and go to http://127.0.0.1:5000
 
 🧪 Model Details
-Logistic Regression trained on Kaggle’s Titanic dataset
-
-Cleaned missing values, encoded features, removed noise
-
-Accuracy: ~81%
-
-Live prediction using .pkl file (no retraining every time)
+    Logistic Regression trained on Kaggle’s Titanic dataset
+    Cleaned missing values, encoded features, removed noise
+    Accuracy: ~81%
+    Live prediction using .pkl file (no retraining every time)
 
 🙋 Why I built this
-This was my first full ML-to-web deployment project.
-It helped me solidify:
-
-how ML models are trained and saved
-
-how to build real-world Flask apps
-
-how to think like a developer, not just a student
+    This was my first full ML-to-web deployment project.
+    It helped me solidify:
+        how ML models are trained and saved
+        how to build real-world Flask apps
+        how to think like a developer, not just a student
 
 🚀 Next steps
 I plan to:
-
-host this on Render
-
-maybe add confidence % scores
-
-and of course, use it as a starter template for future ML apps!
+    host this on Render
+    maybe add confidence % scores
+    and of course, use it as a starter template for future ML apps!
 
 🤝 Wanna connect?
-If you liked this, feel free to check out my other stuff or drop me a message.
-I’m currently learning full-time and aiming for an AI/ML co-op in Fall 2025 🙌
+    If you liked this, feel free to check out my other stuff or drop me a message.
+    I’m currently learning full-time and aiming for an AI/ML co-op in Fall 2025 🙌
