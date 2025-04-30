@@ -1,4 +1,4 @@
-# 🚢 Titanic Survival Predictor 5000
+# Titanic Survival Predictor 5000
 
 Hey there! 👋  
 This is a fun little ML + Flask project I built to predict whether someone would've survived the Titanic — based on real passenger data.  
@@ -6,7 +6,7 @@ I wanted to combine machine learning with a clean, minimal web interface. So her
 
 ---
 
-## 💡 What it does
+## What it does
 
 - You enter passenger details (like age, gender, class, fare, etc.)
 - My trained logistic regression model predicts if they’d survive or not
@@ -14,7 +14,7 @@ I wanted to combine machine learning with a clean, minimal web interface. So her
 
 ---
 
-## 🧠 What I used
+## What I used
 
 - **Python** – for data handling and model training
 - **Pandas** + **scikit-learn** – to train the model (~81% accuracy)
@@ -33,7 +33,7 @@ I wanted to combine machine learning with a clean, minimal web interface. So her
 
 ---
 
-## 🔧 How to run it locally
+## How to run it locally
 
 If you want to try it out:
 
@@ -58,25 +58,24 @@ If you want to try it out:
 
 Then open your browser and go to http://127.0.0.1:5000
 
-🧪 Model Details
-    Logistic Regression trained on Kaggle’s Titanic dataset
-    Cleaned missing values, encoded features, removed noise
-    Accuracy: ~81%
-    Live prediction using .pkl file (no retraining every time)
+## Model Details
+- Logistic Regression trained on Kaggle’s Titanic dataset
+- Cleaned missing values, encoded features, removed noise
+- Accuracy: ~81%
+- Live prediction using .pkl file (no retraining every time)
 
-🙋 Why I built this
-    This was my first full ML-to-web deployment project.
-    It helped me solidify:
-        how ML models are trained and saved
-        how to build real-world Flask apps
-        how to think like a developer, not just a student
+## Why I built this
+- This was my first full ML-to-web deployment project.
+- It helped me solidify:
+    - how ML models are trained and saved
+    - how to build real-world Flask apps
+    - how to think like a developer, not just a student
 
-🚀 Next steps
-I plan to:
-    host this on Render
-    maybe add confidence % scores
-    and of course, use it as a starter template for future ML apps!
+## I plan to:
+- host this on Render
+- maybe add confidence % scores
+- and of course, use it as a starter template for future ML apps!
 
-🤝 Wanna connect?
-    If you liked this, feel free to check out my other stuff or drop me a message.
-    I’m currently learning full-time and aiming for an AI/ML co-op in Fall 2025 🙌
+## Wanna connect?
+- If you liked this, feel free to check out my other stuff or drop me a message.
+- I’m currently learning full-time and aiming for an AI/ML co-op in Fall 2025 🙌
